@@ -84,12 +84,88 @@ ________________________________________________________________________________
     **Dies ist ein Lernprojekt. Vorschläge zur Verbesserung sind willkommen!**
 _____________________________________________________________________________________
 
+==============================================================================================
+## English
+==============================================================================================
 
+# ToDoList-App
+==============================================================================================
 
+## Project Goal
+_____________________________________________________________________________________
 
+    This project was created as part of my preparation for the retraining as an IT specialist for application development.
+    It aims to solidify and expand my existing knowledge in Java and JavaFX practically.
+    The app also serves as proof of my willingness to learn and determination for applications for my 9-month
+    mandatory internship.
+_____________________________________________________________________________________
 
+## Learnings & Goals
+_____________________________________________________________________________________
 
+    - Deeper understanding of classes, methods, and other object-oriented principles in Java, compared to my previous experiences
+      with C++
+    - Familiarization with and exploration of useful Java libraries and frameworks used in job
+    - Initial insights into designing and laying out user interfaces, fundamentals of GUI development
+    - Strengthening my understanding of Java syntax and structure
+    - Understanding the interplay between self-written code and external frameworks
+    - Deeper engagement with the entire application development process to better link theory and practice
+    - Improvement of my skills in structuring, documenting and testing code
+    - First practical experience in creating a complete software project with a user interface
+    - Preparation for future teamwork through clean code organization and versioning in Git.
+_____________________________________________________________________________________
 
+## Current Functionality
+_____________________________________________________________________________________
+
+    - Create, delete and check off tasks
+    - Display tasks in a list
+    - Graphical interface with JavaFX
+    - Simple UI with text field, button and ListView
+_____________________________________________________________________________________
+
+## Planned Extensions
+_____________________________________________________________________________________
+
+    - Tasks with due dates
+    - Prioritization of tasks
+    - Filter options (completed, Open, All)
+    - Persistence via SQL
+_____________________________________________________________________________________
+
+## Project Structure
+_____________________________________________________________________________________
+
+    src/main
+        -> java/
+            -> app/
+                -> Main.java
+                -> controller/
+                    -> TodoController.java
+                -> model/
+                    -> Task.java
+
+        -> resources/
+            -> app/
+                -> view/
+                    -> style.css
+                    -> TodoView.fxml
+_____________________________________________________________________________________
+
+## Tech Stack
+_____________________________________________________________________________________
+
+    - Java 24
+    - JavaFX 21
+    - Maven
+    - IntelliJ IDEA
+    - Git/Github
+_____________________________________________________________________________________
+
+## Conclusion
+_____________________________________________________________________________________
+
+    **This is a learning project. Suggestions for improvement are welcome!**
 
 
 
