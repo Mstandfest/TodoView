@@ -1,0 +1,32 @@
+.root {
+
+    -fx-padding: 20;
+    -fx-background-color: #f0f0f0;
+
+}
+
+.text-field {
+
+    -fx-pref-width: 150px;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 4;
+
+}
+
+.button {
+
+   -fx-background-color: blue;
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-border-radius: 5;
+   -fx-cursor: hand;
+
+}
+
+.list-view {
+
+    -fx-background-color: white;
+    -fx-border-color: black;
+
+}

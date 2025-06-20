@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="app.controller.TodoController"
+      alignment="TOP_CENTER" stylesheets="@style.css">
+
+    <!-- Eingabefeld + Button -->
+    <HBox spacing="10">
+        <TextField fx:id="taskInput" promptText="Neue Aufgabe eingeben" />
+        <Button text="Hinzufügen" onAction="#addTask" />
+    </HBox>
+
+    <!-- Liste der Aufgaben -->
+    <ListView fx:id="taskList" prefHeight="500" />
+
+    <!-- Weitere Aktionen -->
+    <HBox spacing="10">
+        <Button text="Löschen" onAction="#deleteTask" />
+        <Button text="Abhaken" onAction="#toggleTask" />
+        <Button text="Neu laden" onAction="#refreshList" />
+    </HBox>
+
+</VBox>
